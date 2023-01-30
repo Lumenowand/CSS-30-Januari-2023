@@ -1,0 +1,31 @@
+*{
+    margin:0; /*untuk membuat jarak antar objek*/
+    padding:0; /*membuat jarak isi antar kotak*/
+    font-family: 'Cambria', sans-serif; /*untuk menentukan font yang digunakan*/
+}
+
+.bg {
+    background-image:url('abstrak.jpg'); /*untuk menerapkan gambar background*/
+    background-size: cover; /*untuk menentukan ukuran background*/
+}
+
+.photo {
+    width: 150px; /*untuk menentukan lebar objek*/
+    height: 150px; /*untuk menentukan panjang objek*/
+    border-radius: 50%; /*untuk membuat garis disekitar objek*/
+    border: 5px solid; /*untuk membuat membuat garis luar*/
+}
+.tittle {
+    color:white; /*untuk menentukan warna pada font tittle*/
+    margin: 10px auto; /*untuk membuat jarak antar objek*/
+    text-align: center; /*untuk menentukan posisi text*/
+}
+.centerbox {
+    width: 500px; /*untuk menentukan lebar objek*/
+    border: 1px solid white; /*untuk membuat border pada bagian tengah dengan transparan*/
+    margin: 0 auto; /*untuk membuat jarak antar objek*/
+    padding: 15px; /*membuat jarak isi antar kotak*/
+    background-color: rgba(0, 0, 0, 0.5); /*untuk mewarnai warna background*/
+    color: #fff; /*untuk mewarnai text*/
+    text-align: center; /*untuk menempatkan objek di tengah*/
+}
